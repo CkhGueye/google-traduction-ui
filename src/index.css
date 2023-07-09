@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Product Sans";
+  src: local("Product Sans"),
+    url("./fonts/ProductSansRegular.ttf") format("TrueType");
+}
+
+@layer base {
+  html {
+    @apply text-gray-600;
+  }
+
+  button.active {
+    @apply bg-blue-100;
+  }
+}
